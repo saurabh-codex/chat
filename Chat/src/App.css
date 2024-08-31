@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+html{
+  background:#0B132B;
+}
+body{
+  background:#0B132B;
+  
+}
+.new-message-form{
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 28%, rgba(253,187,45,0) 100%);
+}
+.logoimg{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: invert(100%)
+}
+div.chat-bubble{
+  background-color: #1C2541;
+  color:white;
+  animation-duration: 0.1s;
+}
+input.new-message-input{
+  background-color: #1C2541;
+}
+.titleroom{
+  background-color: #1C2541 ;
+  width:100%;
+  font-size: 25px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  border:1px solid #00071e;
+  padding:6px
+} 
